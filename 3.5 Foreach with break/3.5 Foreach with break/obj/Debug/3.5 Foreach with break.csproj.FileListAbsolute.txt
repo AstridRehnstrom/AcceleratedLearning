@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\3.5 Foreach with break\3.5 Foreach with break\bin\Debug\3.5 Foreach with break.exe.config
+C:\Project\AcceleratedLearning\3.5 Foreach with break\3.5 Foreach with break\bin\Debug\3.5 Foreach with break.exe
+C:\Project\AcceleratedLearning\3.5 Foreach with break\3.5 Foreach with break\bin\Debug\3.5 Foreach with break.pdb
+C:\Project\AcceleratedLearning\3.5 Foreach with break\3.5 Foreach with break\obj\Debug\3.5 Foreach with break.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\3.5 Foreach with break\3.5 Foreach with break\obj\Debug\3.5 Foreach with break.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\3.5 Foreach with break\3.5 Foreach with break\obj\Debug\3.5 Foreach with break.exe
+C:\Project\AcceleratedLearning\3.5 Foreach with break\3.5 Foreach with break\obj\Debug\3.5 Foreach with break.pdb

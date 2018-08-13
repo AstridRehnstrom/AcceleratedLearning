@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\3.6 If statement Extra\3.6 If statement Extra\bin\Debug\3.6 If statement Extra.exe.config
+C:\Project\AcceleratedLearning\3.6 If statement Extra\3.6 If statement Extra\bin\Debug\3.6 If statement Extra.exe
+C:\Project\AcceleratedLearning\3.6 If statement Extra\3.6 If statement Extra\bin\Debug\3.6 If statement Extra.pdb
+C:\Project\AcceleratedLearning\3.6 If statement Extra\3.6 If statement Extra\obj\Debug\3.6 If statement Extra.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\3.6 If statement Extra\3.6 If statement Extra\obj\Debug\3.6 If statement Extra.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\3.6 If statement Extra\3.6 If statement Extra\obj\Debug\3.6 If statement Extra.exe
+C:\Project\AcceleratedLearning\3.6 If statement Extra\3.6 If statement Extra\obj\Debug\3.6 If statement Extra.pdb

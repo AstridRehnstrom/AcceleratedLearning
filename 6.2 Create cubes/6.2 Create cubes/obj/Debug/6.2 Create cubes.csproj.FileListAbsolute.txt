@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\6.2 Create cubes\6.2 Create cubes\bin\Debug\6.2 Create cubes.exe.config
+C:\Project\AcceleratedLearning\6.2 Create cubes\6.2 Create cubes\bin\Debug\6.2 Create cubes.exe
+C:\Project\AcceleratedLearning\6.2 Create cubes\6.2 Create cubes\bin\Debug\6.2 Create cubes.pdb
+C:\Project\AcceleratedLearning\6.2 Create cubes\6.2 Create cubes\obj\Debug\6.2 Create cubes.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\6.2 Create cubes\6.2 Create cubes\obj\Debug\6.2 Create cubes.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\6.2 Create cubes\6.2 Create cubes\obj\Debug\6.2 Create cubes.exe
+C:\Project\AcceleratedLearning\6.2 Create cubes\6.2 Create cubes\obj\Debug\6.2 Create cubes.pdb

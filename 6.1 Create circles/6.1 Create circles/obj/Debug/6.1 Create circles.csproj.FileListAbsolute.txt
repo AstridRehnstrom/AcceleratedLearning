@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\6.1 Create circles\6.1 Create circles\bin\Debug\6.1 Create circles.exe.config
+C:\Project\AcceleratedLearning\6.1 Create circles\6.1 Create circles\bin\Debug\6.1 Create circles.exe
+C:\Project\AcceleratedLearning\6.1 Create circles\6.1 Create circles\bin\Debug\6.1 Create circles.pdb
+C:\Project\AcceleratedLearning\6.1 Create circles\6.1 Create circles\obj\Debug\6.1 Create circles.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\6.1 Create circles\6.1 Create circles\obj\Debug\6.1 Create circles.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\6.1 Create circles\6.1 Create circles\obj\Debug\6.1 Create circles.exe
+C:\Project\AcceleratedLearning\6.1 Create circles\6.1 Create circles\obj\Debug\6.1 Create circles.pdb

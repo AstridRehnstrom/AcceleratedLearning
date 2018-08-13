@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\CheckPoint\ChevkPoint1.2.2\ChevkPoint1.2.2\obj\Debug\ChevkPoint1.2.2.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\CheckPoint\ChevkPoint1.2.2\ChevkPoint1.2.2\obj\Debug\ChevkPoint1.2.2.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\CheckPoint\ChevkPoint1.2.2\ChevkPoint1.2.2\bin\Debug\ChevkPoint1.2.2.exe.config
+C:\Project\AcceleratedLearning\CheckPoint\ChevkPoint1.2.2\ChevkPoint1.2.2\bin\Debug\ChevkPoint1.2.2.exe
+C:\Project\AcceleratedLearning\CheckPoint\ChevkPoint1.2.2\ChevkPoint1.2.2\bin\Debug\ChevkPoint1.2.2.pdb
+C:\Project\AcceleratedLearning\CheckPoint\ChevkPoint1.2.2\ChevkPoint1.2.2\obj\Debug\ChevkPoint1.2.2.exe
+C:\Project\AcceleratedLearning\CheckPoint\ChevkPoint1.2.2\ChevkPoint1.2.2\obj\Debug\ChevkPoint1.2.2.pdb

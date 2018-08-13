@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\4.1 Creating methods\4.1 Creating methods\bin\Debug\4.1 Creating methods.exe.config
+C:\Project\AcceleratedLearning\4.1 Creating methods\4.1 Creating methods\bin\Debug\4.1 Creating methods.exe
+C:\Project\AcceleratedLearning\4.1 Creating methods\4.1 Creating methods\bin\Debug\4.1 Creating methods.pdb
+C:\Project\AcceleratedLearning\4.1 Creating methods\4.1 Creating methods\obj\Debug\4.1 Creating methods.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\4.1 Creating methods\4.1 Creating methods\obj\Debug\4.1 Creating methods.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\4.1 Creating methods\4.1 Creating methods\obj\Debug\4.1 Creating methods.exe
+C:\Project\AcceleratedLearning\4.1 Creating methods\4.1 Creating methods\obj\Debug\4.1 Creating methods.pdb

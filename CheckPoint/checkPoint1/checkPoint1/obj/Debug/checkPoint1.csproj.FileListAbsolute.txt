@@ -1,0 +1,6 @@
+C:\Project\AcceleratedLearning\CheckPoint\checkPoint1\checkPoint1\bin\Debug\checkPoint1.exe.config
+C:\Project\AcceleratedLearning\CheckPoint\checkPoint1\checkPoint1\bin\Debug\checkPoint1.exe
+C:\Project\AcceleratedLearning\CheckPoint\checkPoint1\checkPoint1\bin\Debug\checkPoint1.pdb
+C:\Project\AcceleratedLearning\CheckPoint\checkPoint1\checkPoint1\obj\Debug\checkPoint1.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\CheckPoint\checkPoint1\checkPoint1\obj\Debug\checkPoint1.exe
+C:\Project\AcceleratedLearning\CheckPoint\checkPoint1\checkPoint1\obj\Debug\checkPoint1.pdb

@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\3.3 For\3.3 For\bin\Debug\3.3 For.exe.config
+C:\Project\AcceleratedLearning\3.3 For\3.3 For\bin\Debug\3.3 For.exe
+C:\Project\AcceleratedLearning\3.3 For\3.3 For\bin\Debug\3.3 For.pdb
+C:\Project\AcceleratedLearning\3.3 For\3.3 For\obj\Debug\3.3 For.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\3.3 For\3.3 For\obj\Debug\3.3 For.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\3.3 For\3.3 For\obj\Debug\3.3 For.exe
+C:\Project\AcceleratedLearning\3.3 For\3.3 For\obj\Debug\3.3 For.pdb

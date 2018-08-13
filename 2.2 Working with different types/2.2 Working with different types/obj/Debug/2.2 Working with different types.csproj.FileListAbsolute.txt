@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\2.2 Working with different types\2.2 Working with different types\obj\Debug\2.2 Working with different types.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\2.2 Working with different types\2.2 Working with different types\obj\Debug\2.2 Working with different types.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\2.2 Working with different types\2.2 Working with different types\bin\Debug\2.2 Working with different types.exe.config
+C:\Project\AcceleratedLearning\2.2 Working with different types\2.2 Working with different types\bin\Debug\2.2 Working with different types.exe
+C:\Project\AcceleratedLearning\2.2 Working with different types\2.2 Working with different types\bin\Debug\2.2 Working with different types.pdb
+C:\Project\AcceleratedLearning\2.2 Working with different types\2.2 Working with different types\obj\Debug\2.2 Working with different types.exe
+C:\Project\AcceleratedLearning\2.2 Working with different types\2.2 Working with different types\obj\Debug\2.2 Working with different types.pdb

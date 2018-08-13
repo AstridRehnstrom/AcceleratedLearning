@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\6.6 Set accessor\6.6 Set accessor\obj\Debug\6.6 Set accessor.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\6.6 Set accessor\6.6 Set accessor\obj\Debug\6.6 Set accessor.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\6.6 Set accessor\6.6 Set accessor\bin\Debug\6.6 Set accessor.exe.config
+C:\Project\AcceleratedLearning\6.6 Set accessor\6.6 Set accessor\bin\Debug\6.6 Set accessor.exe
+C:\Project\AcceleratedLearning\6.6 Set accessor\6.6 Set accessor\bin\Debug\6.6 Set accessor.pdb
+C:\Project\AcceleratedLearning\6.6 Set accessor\6.6 Set accessor\obj\Debug\6.6 Set accessor.exe
+C:\Project\AcceleratedLearning\6.6 Set accessor\6.6 Set accessor\obj\Debug\6.6 Set accessor.pdb

@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\3.2 While (true)\3.2 While (true)\bin\Debug\3.2 While (true).exe.config
+C:\Project\AcceleratedLearning\3.2 While (true)\3.2 While (true)\bin\Debug\3.2 While (true).exe
+C:\Project\AcceleratedLearning\3.2 While (true)\3.2 While (true)\bin\Debug\3.2 While (true).pdb
+C:\Project\AcceleratedLearning\3.2 While (true)\3.2 While (true)\obj\Debug\3.2 While (true).csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\3.2 While (true)\3.2 While (true)\obj\Debug\3.2 While (true).csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\3.2 While (true)\3.2 While (true)\obj\Debug\3.2 While (true).exe
+C:\Project\AcceleratedLearning\3.2 While (true)\3.2 While (true)\obj\Debug\3.2 While (true).pdb

@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\4.4 More options\4.4 More options\obj\Debug\4.4 More options.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\4.4 More options\4.4 More options\obj\Debug\4.4 More options.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\4.4 More options\4.4 More options\bin\Debug\4.4 More options.exe.config
+C:\Project\AcceleratedLearning\4.4 More options\4.4 More options\bin\Debug\4.4 More options.exe
+C:\Project\AcceleratedLearning\4.4 More options\4.4 More options\bin\Debug\4.4 More options.pdb
+C:\Project\AcceleratedLearning\4.4 More options\4.4 More options\obj\Debug\4.4 More options.exe
+C:\Project\AcceleratedLearning\4.4 More options\4.4 More options\obj\Debug\4.4 More options.pdb

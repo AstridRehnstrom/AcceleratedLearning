@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\2.3 String creation\2.3 String creation\bin\Debug\2.3 String creation.exe.config
+C:\Project\AcceleratedLearning\2.3 String creation\2.3 String creation\bin\Debug\2.3 String creation.exe
+C:\Project\AcceleratedLearning\2.3 String creation\2.3 String creation\bin\Debug\2.3 String creation.pdb
+C:\Project\AcceleratedLearning\2.3 String creation\2.3 String creation\obj\Debug\2.3 String creation.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\2.3 String creation\2.3 String creation\obj\Debug\2.3 String creation.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\2.3 String creation\2.3 String creation\obj\Debug\2.3 String creation.exe
+C:\Project\AcceleratedLearning\2.3 String creation\2.3 String creation\obj\Debug\2.3 String creation.pdb

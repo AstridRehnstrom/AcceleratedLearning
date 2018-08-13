@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.2 Create cubes", "6.2 Create cubes\6.2 Create cubes.csproj", "{1783BB9E-4D93-49D8-9804-1BF5621E731D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1783BB9E-4D93-49D8-9804-1BF5621E731D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1783BB9E-4D93-49D8-9804-1BF5621E731D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1783BB9E-4D93-49D8-9804-1BF5621E731D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1783BB9E-4D93-49D8-9804-1BF5621E731D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C1AA41F-0AAF-443C-9355-0F4F37C6B6E3}
+	EndGlobalSection
+EndGlobal

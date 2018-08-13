@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\6.4 Enums\6.4 Enums\bin\Debug\6.4 Enums.exe.config
+C:\Project\AcceleratedLearning\6.4 Enums\6.4 Enums\bin\Debug\6.4 Enums.exe
+C:\Project\AcceleratedLearning\6.4 Enums\6.4 Enums\bin\Debug\6.4 Enums.pdb
+C:\Project\AcceleratedLearning\6.4 Enums\6.4 Enums\obj\Debug\6.4 Enums.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\6.4 Enums\6.4 Enums\obj\Debug\6.4 Enums.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\6.4 Enums\6.4 Enums\obj\Debug\6.4 Enums.exe
+C:\Project\AcceleratedLearning\6.4 Enums\6.4 Enums\obj\Debug\6.4 Enums.pdb

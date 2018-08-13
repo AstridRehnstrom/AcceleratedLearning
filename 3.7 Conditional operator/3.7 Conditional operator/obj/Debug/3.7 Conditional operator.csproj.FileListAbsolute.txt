@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\3.7 Conditional operator\3.7 Conditional operator\bin\Debug\3.7 Conditional operator.exe.config
+C:\Project\AcceleratedLearning\3.7 Conditional operator\3.7 Conditional operator\bin\Debug\3.7 Conditional operator.exe
+C:\Project\AcceleratedLearning\3.7 Conditional operator\3.7 Conditional operator\bin\Debug\3.7 Conditional operator.pdb
+C:\Project\AcceleratedLearning\3.7 Conditional operator\3.7 Conditional operator\obj\Debug\3.7 Conditional operator.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\3.7 Conditional operator\3.7 Conditional operator\obj\Debug\3.7 Conditional operator.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\3.7 Conditional operator\3.7 Conditional operator\obj\Debug\3.7 Conditional operator.exe
+C:\Project\AcceleratedLearning\3.7 Conditional operator\3.7 Conditional operator\obj\Debug\3.7 Conditional operator.pdb

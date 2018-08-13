@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\2.1 Respond to user input\2.1 Respond to user input\obj\Debug\2.1 Respond to user input.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\2.1 Respond to user input\2.1 Respond to user input\obj\Debug\2.1 Respond to user input.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\2.1 Respond to user input\2.1 Respond to user input\bin\Debug\2.1 Respond to user input.exe.config
+C:\Project\AcceleratedLearning\2.1 Respond to user input\2.1 Respond to user input\bin\Debug\2.1 Respond to user input.exe
+C:\Project\AcceleratedLearning\2.1 Respond to user input\2.1 Respond to user input\bin\Debug\2.1 Respond to user input.pdb
+C:\Project\AcceleratedLearning\2.1 Respond to user input\2.1 Respond to user input\obj\Debug\2.1 Respond to user input.exe
+C:\Project\AcceleratedLearning\2.1 Respond to user input\2.1 Respond to user input\obj\Debug\2.1 Respond to user input.pdb

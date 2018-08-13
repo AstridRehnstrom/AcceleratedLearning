@@ -1,0 +1,6 @@
+C:\Project\AcceleratedLearning\3.2 While\3.2 While\obj\Debug\3.2 While.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\3.2 While\3.2 While\bin\Debug\3.2 While.exe.config
+C:\Project\AcceleratedLearning\3.2 While\3.2 While\bin\Debug\3.2 While.exe
+C:\Project\AcceleratedLearning\3.2 While\3.2 While\bin\Debug\3.2 While.pdb
+C:\Project\AcceleratedLearning\3.2 While\3.2 While\obj\Debug\3.2 While.exe
+C:\Project\AcceleratedLearning\3.2 While\3.2 While\obj\Debug\3.2 While.pdb

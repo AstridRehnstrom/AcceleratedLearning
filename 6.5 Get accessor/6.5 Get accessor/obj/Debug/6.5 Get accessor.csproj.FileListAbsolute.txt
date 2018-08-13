@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\6.5 Get accessor\6.5 Get accessor\bin\Debug\6.5 Get accessor.exe.config
+C:\Project\AcceleratedLearning\6.5 Get accessor\6.5 Get accessor\bin\Debug\6.5 Get accessor.exe
+C:\Project\AcceleratedLearning\6.5 Get accessor\6.5 Get accessor\bin\Debug\6.5 Get accessor.pdb
+C:\Project\AcceleratedLearning\6.5 Get accessor\6.5 Get accessor\obj\Debug\6.5 Get accessor.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\6.5 Get accessor\6.5 Get accessor\obj\Debug\6.5 Get accessor.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\6.5 Get accessor\6.5 Get accessor\obj\Debug\6.5 Get accessor.exe
+C:\Project\AcceleratedLearning\6.5 Get accessor\6.5 Get accessor\obj\Debug\6.5 Get accessor.pdb

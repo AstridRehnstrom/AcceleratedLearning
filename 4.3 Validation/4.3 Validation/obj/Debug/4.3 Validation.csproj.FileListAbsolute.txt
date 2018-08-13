@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\4.3 Validation\4.3 Validation\bin\Debug\4.3 Validation.exe.config
+C:\Project\AcceleratedLearning\4.3 Validation\4.3 Validation\bin\Debug\4.3 Validation.exe
+C:\Project\AcceleratedLearning\4.3 Validation\4.3 Validation\bin\Debug\4.3 Validation.pdb
+C:\Project\AcceleratedLearning\4.3 Validation\4.3 Validation\obj\Debug\4.3 Validation.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\4.3 Validation\4.3 Validation\obj\Debug\4.3 Validation.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\4.3 Validation\4.3 Validation\obj\Debug\4.3 Validation.exe
+C:\Project\AcceleratedLearning\4.3 Validation\4.3 Validation\obj\Debug\4.3 Validation.pdb

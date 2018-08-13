@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\4.2 Clean user input\4.2 Clean user input\bin\Debug\4.2 Clean user input.exe.config
+C:\Project\AcceleratedLearning\4.2 Clean user input\4.2 Clean user input\bin\Debug\4.2 Clean user input.exe
+C:\Project\AcceleratedLearning\4.2 Clean user input\4.2 Clean user input\bin\Debug\4.2 Clean user input.pdb
+C:\Project\AcceleratedLearning\4.2 Clean user input\4.2 Clean user input\obj\Debug\4.2 Clean user input.csprojAssemblyReference.cache
+C:\Project\AcceleratedLearning\4.2 Clean user input\4.2 Clean user input\obj\Debug\4.2 Clean user input.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\4.2 Clean user input\4.2 Clean user input\obj\Debug\4.2 Clean user input.exe
+C:\Project\AcceleratedLearning\4.2 Clean user input\4.2 Clean user input\obj\Debug\4.2 Clean user input.pdb

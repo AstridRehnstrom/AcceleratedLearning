@@ -1,0 +1,7 @@
+C:\Project\AcceleratedLearning\3.4 Foreach\3.4 Foreach\bin\Debug\3.4 Foreach.exe.config
+C:\Project\AcceleratedLearning\3.4 Foreach\3.4 Foreach\bin\Debug\3.4 Foreach.exe
+C:\Project\AcceleratedLearning\3.4 Foreach\3.4 Foreach\bin\Debug\3.4 Foreach.pdb
+C:\Project\AcceleratedLearning\3.4 Foreach\3.4 Foreach\obj\Debug\3.4 Foreach.csproj.CoreCompileInputs.cache
+C:\Project\AcceleratedLearning\3.4 Foreach\3.4 Foreach\obj\Debug\3.4 Foreach.exe
+C:\Project\AcceleratedLearning\3.4 Foreach\3.4 Foreach\obj\Debug\3.4 Foreach.pdb
+C:\Project\AcceleratedLearning\3.4 Foreach\3.4 Foreach\obj\Debug\3.4 Foreach.csprojAssemblyReference.cache
