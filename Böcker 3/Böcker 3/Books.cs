@@ -37,7 +37,27 @@ namespace Böcker_3
 
         public string Isbn { get; set; }
         public string Author { get; set; }
-        public double NrOfPages { get; set; }
+        private int _NrOfPages;
+        public int NrOfPages
+        {
+            get
+            {
+                return _NrOfPages;
+            }
+            set
+            {
+                if (value >= 1000)
+                {
+                    _NrOfPages = 300;
+                }
+                else
+                {
+                    _NrOfPages = value;
+
+                }
+            }
+        }
+
         public string Title { get; set; }
 
         public Book(string isbn, string title)

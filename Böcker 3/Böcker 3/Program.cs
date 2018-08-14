@@ -14,7 +14,7 @@ namespace Böcker_3
 
             b1.Isbn="978-3-16-148410-0";
             b1.Author="Kalle";
-            b1.NrOfPages=400;
+            b1.NrOfPages=9900;
             b1.ProductId="1234";
 
             Console.WriteLine($"Info om boken:");
