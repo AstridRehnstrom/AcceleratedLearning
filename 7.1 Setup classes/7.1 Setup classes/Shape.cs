@@ -15,6 +15,11 @@ namespace _7._1_Setup_classes
     {
         public int bas { get; set; }
         public int height { get; set; }
+
+        public override string ToString()
+        {
+            return "Jag är en triangel med basen " + bas + " och höjden " + height;
+        }
     }
 
     class Circle : Shape
@@ -33,5 +38,10 @@ namespace _7._1_Setup_classes
     {
         public int bas { get; set; }
         public int height { get; set; }
+
+        public override string ToString()
+        {
+            return "Jag är en rektangel med basen " + bas + " och höjden " + height;
+        }
     }
 }
