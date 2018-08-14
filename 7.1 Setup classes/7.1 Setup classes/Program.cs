@@ -25,53 +25,51 @@ namespace _7._1_Setup_classes
             }
         }
 
-        public static List<Shape> listOfShapes() {
-                bool oneMore = true;
-                List<Shape> allShapes = new List<Shape>();
-                do
-                {
+        public static List<Shape> listOfShapes()
+        {
+            bool oneMore = true;
+            List<Shape> allShapes = new List<Shape>();
+            do
+            {
                 Console.WriteLine("Select (T)riangle, (R)ectangle, (C)ircle, or (D)one");
                 string inmatat = Console.ReadLine().ToUpper();
 
                 switch (inmatat)
-                    {
-                        case "C":
-                            {
-                                Circle c = AskForCircle();
-                                allShapes.Add(c);
-                                break;
-                            }
-
-                        case "R":
-                            {
-                                Rectangle r = AskForRectangle();
-                                allShapes.Add(r);
-                                break;
-                            }
-
-                        case "T":
-                            {
-
-                                Triangle t = AskForTriangle();
-                                allShapes.Add(t);
-                                break;
-                            }
-
-                        case "D":
-                            oneMore = false;
+                {
+                    case "C":
+                        {
+                            Circle c = AskForCircle();
+                            allShapes.Add(c);
                             break;
-                    }
-                } while (oneMore);
-                return allShapes;
-            }
+                        }
 
-            //foreach (Shape shapes in listOfShapes)
-            //{
-            //    Console.WriteLine(shapes.ToString());
-            //}
+                    case "R":
+                        {
+                            Rectangle r = AskForRectangle();
+                            allShapes.Add(r);
+                            break;
+                        }
+
+                    case "T":
+                        {
+
+                            Triangle t = AskForTriangle();
+                            allShapes.Add(t);
+                            break;
+                        }
+
+                    case "D":
+                        oneMore = false;
+                        break;
+                }
+            } while (oneMore);
+            return allShapes;
+        }
 
 
-        
+
+
+
 
         public static Circle AskForCircle()
         {
@@ -112,4 +110,5 @@ namespace _7._1_Setup_classes
         }
     }
 }
+
 

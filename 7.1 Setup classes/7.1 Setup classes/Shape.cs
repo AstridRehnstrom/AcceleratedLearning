@@ -20,6 +20,12 @@ namespace _7._1_Setup_classes
     class Circle : Shape
     {
         public int radius { get; set; }
+
+        public override string ToString()
+        {
+            return "Jag är en cirkel med radien " + radius;
+        }
+
     }
 
 

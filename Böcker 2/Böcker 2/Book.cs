@@ -22,14 +22,13 @@ namespace Böcker_2
 
         }
 
-
     }
 
 
 
     class ElectronicBook : Product
     {
-        
+
 
         public void SendBookTo(string emailAdress)
         {
@@ -37,10 +36,10 @@ namespace Böcker_2
         }
     }
 
-    
 
 
-    class Book :Product
+
+    class Book : Product
     {
         private string _isbn;
         private string _author;
@@ -102,5 +101,5 @@ namespace Böcker_2
                 return "Tjock";
         }
     }
-    
+
 }
