@@ -26,7 +26,7 @@ namespace Böcker_2
 
 
 
-    class ElectronicBook : Product
+    class ElectronicBook : Book
     {
 
 
