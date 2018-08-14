@@ -9,19 +9,7 @@ namespace Böcker_3
     class Product
     {
         public string ProductId { get; set; }
-        //private int _id;
-
-
-        //public int GetProductId()
-        //{
-        //    return _id;
-        //}
-
-        //public void SetProductId(int id)
-        //{
-        //    _id = id;
-
-        //}
+        
 
     }
 
@@ -45,10 +33,7 @@ namespace Böcker_3
 
     class Book : Product
     {
-        //private string _isbn;
-        //private string _author;
-        //private double _number;
-        //private double _title;
+        
 
         public string Isbn { get; set; }
         public string Author { get; set; }
@@ -62,40 +47,7 @@ namespace Böcker_3
         }
 
 
-        //public string GetIsbn()
-        //{
-        //    return _isbn;
-        //}
-
-        //public void SetIsbn(string isbn)
-        //{
-        //    _isbn = isbn;
-
-        //}
-
-        //public string GetAuthor()
-        //{
-        //    return _author;
-        //}
-
-        //public void SetAuthor(string author)
-        //{
-        //    _author = author;
-
-        //}
-
-
-        //public double GetNrOfPages()
-        //{
-        //    return _number;
-        //}
-
-        //public void SetNrOfPages(double number)
-        //{
-        //    _number = number;
-
-        //}
-
+       
 
         public double WeightInGram(double number)
         {
