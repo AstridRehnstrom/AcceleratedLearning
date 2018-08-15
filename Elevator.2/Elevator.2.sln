@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorConsoleApp", "ElevatorConsoleApp\ElevatorConsoleApp.csproj", "{D90E3158-295B-4F47-A10F-4E77B5F41544}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElevatorConsoleApp", "ElevatorConsoleApp\ElevatorConsoleApp.csproj", "{D90E3158-295B-4F47-A10F-4E77B5F41544}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorDomain", "ElevatorDomain\ElevatorDomain.csproj", "{030E74BA-1502-408E-A395-062748E69C59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElevatorDomain", "ElevatorDomain\ElevatorDomain.csproj", "{030E74BA-1502-408E-A395-062748E69C59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{80BD10F2-9CB6-42C3-A822-26902BBE8421}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{030E74BA-1502-408E-A395-062748E69C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{030E74BA-1502-408E-A395-062748E69C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{030E74BA-1502-408E-A395-062748E69C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80BD10F2-9CB6-42C3-A822-26902BBE8421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BD10F2-9CB6-42C3-A822-26902BBE8421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BD10F2-9CB6-42C3-A822-26902BBE8421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BD10F2-9CB6-42C3-A822-26902BBE8421}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
