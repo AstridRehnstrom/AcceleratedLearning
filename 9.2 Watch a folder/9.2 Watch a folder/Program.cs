@@ -17,7 +17,7 @@ namespace _9._2_Watch_a_folder
             x.Created += EnFilHarLagtsTill;
             x.Deleted += EnFilHarTagitsBort;
             x.Changed += EnFilHarÄndrats;
-
+            
             Console.ReadKey();
            
         }
@@ -25,6 +25,7 @@ namespace _9._2_Watch_a_folder
         private static void EnFilHarÄndrats(object sender, FileSystemEventArgs e)
         {
             Console.WriteLine("Filen " + e.Name + " har ändrats!");
+            //Console.WriteLine(e.FullPath);
         }
 
         private static void EnFilHarTagitsBort(object sender, FileSystemEventArgs e)
