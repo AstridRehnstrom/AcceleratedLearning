@@ -30,13 +30,13 @@ namespace _8._3_Animals_in_a_list
 
         private static string[] CreateArrayOfAnimals(string inmatat)
         {
-            string[] animals = inmatat.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+            string[] animals = inmatat.Split(new[] { ',' });
             if (inmatat == "")
                 throw new ArgumentException("User don’t enter any animal");
 
 
             foreach (string animal in animals) {
-                if (animal == "")
+                if (animal.Length == 0)
                     throw new ArgumentException("One of the animals is empty");
 
                 if (animal.Length>20)
