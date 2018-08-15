@@ -7,23 +7,27 @@ namespace _8._3_Animals_in_a_list
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a list of animals: ");
-            string inmatat = Console.ReadLine();
-
-
-            try
+            while (true)
             {
-                string[] animalArray = CreateArrayOfAnimals(inmatat);
+                Console.WriteLine("Enter a list of animals: ");
+                string inmatat = Console.ReadLine();
 
-                Console.WriteLine("There are " + animalArray.Length + " animals in the list");
+
+                try
+                {
+                    string[] animalArray = CreateArrayOfAnimals(inmatat);
+
+                    Console.WriteLine("There are " + animalArray.Length + " animals in the list");
+                    break;
+                }
+
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+
+
             }
-
-            catch (ArgumentException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            
-
         }
 
 
