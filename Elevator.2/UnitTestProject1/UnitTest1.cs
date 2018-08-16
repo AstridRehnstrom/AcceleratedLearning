@@ -29,5 +29,14 @@ namespace UnitTestProject1
             Assert.AreEqual(3, e1.CurrentFloor);
 
         }
+
+        [TestMethod]
+        public void elevator_should_be_at_top_floor_when_go_up_is_called_really_many_times()
+        {
+            for (int i = 0; i < 1000; i++)
+                e1.GoUp();
+
+            Assert.AreEqual(topfloor, e1.CurrentFloor);
+        }
     }
 }
