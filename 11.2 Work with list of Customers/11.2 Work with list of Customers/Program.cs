@@ -76,12 +76,47 @@ namespace _11._2_Work_with_list_of_Customers
 
             Console.WriteLine();
             Console.WriteLine("Men Older than 35:");
-            var menOlder= allCustomers.Where(x => x.Gender==Gender.Male && x.Age >35).OrderBy(x => x.Name);
+            var menOlder = allCustomers.Where(x => x.Gender == Gender.Male && x.Age > 35).OrderBy(x => x.Name);
 
             foreach (var item in menOlder)
             {
                 Console.WriteLine(item.Name.PadRight(10) + "    " + item.Age.ToString().PadRight(4) + " " + item.Gender);
             }
+
+
+            Console.WriteLine();
+            Console.WriteLine("Men Older than 35, manipulated:");
+            var menOlderPlus = allCustomers.Where(x => x.Gender == Gender.Male && x.Age > 35).OrderBy(x => x.Name);
+
+            foreach (var item in menOlderPlus)
+            {
+                item.Age = item.Age + 1000;
+                Console.WriteLine(item.Name.PadRight(10) + "    " + item.Age.ToString().PadRight(4) + " " + item.Gender);
+            }
+
+            //List<int> x1 = allCustomers.Select(x => x.Age).ToList();
+            //List<string> x2 = allCustomers.Select(x => x.Name).ToList();
+            //List<int> x3 = allCustomers.Select(x => x.Name.Count()).ToList();
+
+            List<Customer> x4 = menOlder.Select(x =>
+
+                new Customer
+                {
+                    Name=x.Name,
+                    Gender = Gender.Male,
+                    Age = x.Age + 1000
+                }
+
+            ).ToList();
+
+            Console.WriteLine();
+            Console.WriteLine("Men Older than 35, manipulated with selected:");
+
+            foreach (var item in x4)
+            {
+                Console.WriteLine(item.Name.PadRight(10) + "    " + item.Age.ToString().PadRight(4) + " " + item.Gender);
+            }
+
 
         }
 
