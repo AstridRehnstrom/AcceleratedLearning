@@ -10,6 +10,8 @@ namespace _10._4_Manipulate_a_list
 
             List<string> allNames = new List<string>();
 
+
+
             while (true)
             {
 
