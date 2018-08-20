@@ -34,11 +34,14 @@ namespace CheckPoint.v2
 
                 allRooms.Add(room);
             }
+
             int rumNummer = 1;
             foreach (var room in allRooms)
             {
-                Console.WriteLine("Rummets namn " +rumNummer+":"+ room.Name);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("*Rummets namn " +rumNummer+":"+ room.Name);
                 rumNummer++;
+                Console.ResetColor();
             }
 
 
