@@ -14,9 +14,17 @@ namespace Rotation
 
             List<int> rotatedList = RotateList(lista, rotateIndex);
 
-            //var x = lista.Skip(3);
-            //var y = lista.Take(3);
+            foreach (var item in rotatedList)
+            {
+                Console.WriteLine(item);
+            }
+
+            var x = lista.Skip(3);
+            var y = lista.Take(3);
+            
+
             // 400, 500, 100, 200, 300 
+
 
         }
 
