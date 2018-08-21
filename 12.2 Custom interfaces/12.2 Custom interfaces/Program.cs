@@ -25,7 +25,9 @@ namespace _12._2_Custom_interfaces
 
         public int Bite()
         {
-            Console.WriteLine("The dog " + Name + " bites you");
+            Random rnd = new Random();
+            int legsArms = rnd.Next(1, 4);
+            return legsArms;
         }
 
         public void Greet()
