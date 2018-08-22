@@ -18,7 +18,7 @@ namespace _6_pandor__Pig_Latin
                 var x = new string( item.Skip(1).ToArray());
                 var y = new string( item.Take(1).ToArray());
 
-                Console.Write(" " + x+ y+ "ay");
+                Console.Write(x+ y+ "ay ");
 
             }
             Console.WriteLine();
