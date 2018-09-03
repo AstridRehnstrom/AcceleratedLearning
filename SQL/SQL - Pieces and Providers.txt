@@ -1,0 +1,42 @@
+1.
+SELECT Name FROM Pieces;
+
+2.
+SELECT * FROM Providers;
+
+3.
+select piece, AVG(price)
+from provides
+group by piece
+
+4.
+select name
+from Providers 
+join Provides on provides.Provider =Providers.Code
+where provides.Piece=1 
+
+5.
+ select Pieces.Name
+ from Provides
+ join Pieces on Pieces.Code=Provides.Piece
+ join Providers on Provides.Provider= Providers.Code
+ where Provider='HAL'
+
+ 6.
+ select xxx.Name, MaxPrice, ProviderName
+from (
+
+select Pieces.Name, Max(Provides.Price) as MaxPrice
+from Pieces join Provides on Pieces.Code=Provides.Piece
+join Providers on Provides.Provider = Providers.Code
+group by Pieces.Name
+
+) xxx join (
+
+select Pieces.Name, Price, Providers.Name as ProviderName 
+from Pieces join Provides on Pieces.Code=Provides.Piece
+join Providers on Provides.Provider = Providers.Code
+
+) yyy on xxx.Name = yyy.Name and xxx.MaxPrice=yyy.Price
+
+7.

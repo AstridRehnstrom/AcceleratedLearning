@@ -1,0 +1,29 @@
+1. ABC
+^[abc]{3}$
+
+2. Svenska ord
+^([A-Ö a-ö][^è:])+$
+
+3.Multiplikation 2
+^[\d]+[*][\d]+$
+
+4.Multiplikation 
+^ *[\d]+ *[*] *[\d]+ *$
+
+5.Multiplikation 3
+\d+
+
+6.Telefonnummer
+^(\d{3,11})(-\d+)?$
+
+7.Produktnummer
+^[A-Z]{1,2}-\d\d\d-\d\d\d$
+
+8.Produktnummer 2
+gör en annan gång
+
+9.Samma siffra två gånger (back referencing)
+^(\d\d\d)\1$
+
+10.Samma ord två gånger
+^([a-ö]+) \1$
