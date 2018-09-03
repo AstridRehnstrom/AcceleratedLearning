@@ -14,7 +14,7 @@ namespace Bloggy
 
         internal List<BlogPost> GetAllBlogPosts()
         {
-            string sql = @"select ID, Title, Author From BlogPost";
+            string sql = @"select ID, Title, Author,Text From BlogPost";
 
             using (SqlConnection connection = new SqlConnection(conString))
             using (SqlCommand command = new SqlCommand(sql, connection))
@@ -31,10 +31,12 @@ namespace Bloggy
                     int id = reader.GetSqlInt32(0).Value;
                     string title = reader.GetSqlString(1).Value;
                     string author = reader.GetSqlString(2).Value;
+                    string text = reader.GetSqlString(3).Value;
 
                     bp.Id = id;
                     bp.Title = title;
                     bp.Author = author;
+                    bp.Text = text;
 
                     result.Add(bp);
                 }
@@ -44,7 +46,7 @@ namespace Bloggy
 
         internal BlogPost GetBlogPostById(int postId)
         {
-            string sql = @"select ID, Title, Author From BlogPost where ID=@ID";
+            string sql = @"select ID, Title, Author, Text From BlogPost where ID=@ID";
 
             using (SqlConnection connection = new SqlConnection(conString))
             using (SqlCommand command = new SqlCommand(sql, connection))
@@ -54,7 +56,6 @@ namespace Bloggy
 
                 SqlDataReader reader = command.ExecuteReader();
 
-
                 reader.Read();
 
                 var bp = new BlogPost();
@@ -62,10 +63,12 @@ namespace Bloggy
                 int id = reader.GetSqlInt32(0).Value;
                 string title = reader.GetSqlString(1).Value;
                 string author = reader.GetSqlString(2).Value;
+                string text = reader.GetSqlString(3).Value;
 
                 bp.Id = id;
                 bp.Title = title;
                 bp.Author = author;
+                bp.Text = text;
 
                 return bp;
             }

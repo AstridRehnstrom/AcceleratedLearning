@@ -21,27 +21,21 @@ namespace Bloggy
         {
             Console.WriteLine("Välkommen till huvudmenyn!");
 
-
             ShowAllBlogPosts();
-
 
             Console.WriteLine("Vad vill du göra?");
             Console.WriteLine("a) Gå till huvudmenyn");
             Console.WriteLine("b) Uppdatera en bloggpost");
             Console.WriteLine("c) Lägg till en kommentar");
 
-
             ConsoleKey command = Console.ReadKey().Key;
             
-
             switch (command)
             {
                 case ConsoleKey.A: PageMainMenu(); break;
                 case ConsoleKey.B: PageUpdatePost(); break;
                 case ConsoleKey.C: PageCommentPost(); break;
-            }
-          
-
+            }         
         }
 
         private void PageCommentPost()
@@ -98,7 +92,7 @@ namespace Bloggy
 
             foreach (BlogPost bp in allPosts)
             {
-                Console.WriteLine(bp.Id.ToString().PadRight(5) + bp.Title.PadRight(30) + bp.Author.PadRight(30));
+                Console.WriteLine(bp.Id.ToString().PadRight(5) + bp.Title.PadRight(30) + bp.Author.PadRight(30) + bp.Text.PadRight(60));
             }
         }
     }
