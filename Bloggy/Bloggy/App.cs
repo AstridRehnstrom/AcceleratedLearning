@@ -28,6 +28,7 @@ namespace Bloggy
             Console.WriteLine("Vad vill du göra?");
             Console.WriteLine("a) Gå till huvudmenyn");
             Console.WriteLine("b) Uppdatera en bloggpost");
+            Console.WriteLine("c) Lägg till en kommentar");
 
 
             ConsoleKey command = Console.ReadKey().Key;
@@ -37,9 +38,35 @@ namespace Bloggy
             {
                 case ConsoleKey.A: PageMainMenu(); break;
                 case ConsoleKey.B: PageUpdatePost(); break;
+                case ConsoleKey.C: PageCommentPost(); break;
             }
           
 
+        }
+
+        private void PageCommentPost()
+        {
+            Console.Clear();
+
+            ShowAllBlogPosts();
+
+            Console.Write("Vilken bloggpost vill du kommentera?");
+            int postId = int.Parse(Console.ReadLine());
+
+            BlogPost post = dataaccess.GetBlogPostById(postId);
+
+            Console.WriteLine("Skriv in ditt namn: ");
+            string newName = Console.ReadLine();
+            Console.WriteLine("Skriv in en kommentar: ");
+            string newComment = Console.ReadLine();
+            Comment comment = new Comment();          
+            comment.Name = newName;
+            comment.CommentText = newComment;
+            dataaccess.AddCommentToPost(post, comment);
+
+            Console.WriteLine("Bloggposten är nu kommenterad. Tryck på valfri knapp för att gå till huvudmenyn!");
+            Console.ReadKey();
+            PageMainMenu();
         }
 
         private void PageUpdatePost()

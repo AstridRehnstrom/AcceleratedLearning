@@ -82,6 +82,21 @@ namespace Bloggy
                 command.Parameters.Add(new SqlParameter("ID", post.Id));
                 command.Parameters.Add(new SqlParameter("Title", post.Title));
                 command.ExecuteNonQuery();
+            }
+        }
+
+
+        internal void AddCommentToPost(BlogPost post, Comment comment)
+        {
+            string sql = @"insert into Comments (BlogPostId,Name, CommentText) values (@BlogPostId,@Name, @CommentText)";
+            using (SqlConnection connection = new SqlConnection(conString))
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                connection.Open();
+                command.Parameters.Add(new SqlParameter("BlogPostId", post.Id));
+                command.Parameters.Add(new SqlParameter("CommentText", comment.CommentText));
+                command.Parameters.Add(new SqlParameter("Name", comment.Name));
+                command.ExecuteNonQuery();
 
             }
         }
