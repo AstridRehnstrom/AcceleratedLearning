@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 namespace Bloggy
 {
     public class App
-    
+
     {
-       DataAccess dataaccess = new DataAccess();
+        DataAccess dataaccess = new DataAccess();
 
         internal void Run()
         {
@@ -27,15 +27,17 @@ namespace Bloggy
             Console.WriteLine("a) Gå till huvudmenyn");
             Console.WriteLine("b) Uppdatera en bloggpost");
             Console.WriteLine("c) Lägg till en kommentar");
+            Console.WriteLine("d) Visa kommentarer");
 
             ConsoleKey command = Console.ReadKey().Key;
-            
+
             switch (command)
             {
                 case ConsoleKey.A: PageMainMenu(); break;
                 case ConsoleKey.B: PageUpdatePost(); break;
                 case ConsoleKey.C: PageCommentPost(); break;
-            }         
+                case ConsoleKey.D: ShowAllComments(); break;
+            }
         }
 
         private void PageCommentPost()
@@ -53,7 +55,7 @@ namespace Bloggy
             string newName = Console.ReadLine();
             Console.WriteLine("Skriv in en kommentar: ");
             string newComment = Console.ReadLine();
-            Comment comment = new Comment();          
+            Comment comment = new Comment();
             comment.Name = newName;
             comment.CommentText = newComment;
             dataaccess.AddCommentToPost(post, comment);
@@ -70,9 +72,9 @@ namespace Bloggy
             ShowAllBlogPosts();
 
             Console.Write("Vilken bloggpost vill du uppdatera?");
-            int postId =int.Parse( Console.ReadLine());
+            int postId = int.Parse(Console.ReadLine());
 
-            BlogPost post= dataaccess.GetBlogPostById(postId);
+            BlogPost post = dataaccess.GetBlogPostById(postId);
 
             Console.WriteLine("Skriv in ny titel: ");
             string newTitle = Console.ReadLine();
@@ -87,12 +89,25 @@ namespace Bloggy
 
         private void ShowAllBlogPosts()
         {
-            
+
             List<BlogPost> allPosts = dataaccess.GetAllBlogPosts();
 
             foreach (BlogPost bp in allPosts)
             {
                 Console.WriteLine(bp.Id.ToString().PadRight(5) + bp.Title.PadRight(30) + bp.Author.PadRight(30) + bp.Text.PadRight(60));
+            }
+        }
+
+        private void ShowAllComments()
+        {
+            Console.WriteLine("Vilket inlägg vill du se kommentarer ifrån?");
+            int inmatat = int.Parse(Console.ReadLine());
+
+            List<Comment> allComments = dataaccess.GetAllComments(inmatat);
+
+            foreach (var comment in allComments)
+            {
+                Console.WriteLine(comment.CommentText);
             }
         }
     }

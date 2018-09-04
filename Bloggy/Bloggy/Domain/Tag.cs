@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Bloggy.Domain
 {
-    public class Comment
+    public class Tag
     {
-        public int Id { get; set; }
+        public int iD{ get; set; }
         public string Name { get; set; }
-        public string CommentText { get; set; }
     }
 }

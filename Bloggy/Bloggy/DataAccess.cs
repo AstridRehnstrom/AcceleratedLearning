@@ -103,5 +103,42 @@ namespace Bloggy
 
             }
         }
+
+        internal List<Comment> GetAllComments(int blogPostId)
+        {
+            string sql = @"select Blogpost.ID, Name, CommentText 
+            From Comments 
+            join BlogPost on BlogPost.Id= Comments.BlogpostId
+			where BlogPost.Id=@ID  
+            order by BlogPost.Title";
+
+            using (SqlConnection connection = new SqlConnection(conString))
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                connection.Open();
+                command.Parameters.Add(new SqlParameter("Id", blogPostId));
+
+                SqlDataReader reader = command.ExecuteReader();
+                var c = new List<Comment>();
+                
+                while (reader.Read())
+                {
+                    var comment = new Comment();
+                    int id = reader.GetSqlInt32(0).Value;
+                    string name = reader.GetSqlString(1).Value;
+                    string commenttext = reader.GetSqlString(2).Value;
+
+                    comment.Id = id;
+                    comment.Name = name;
+                    comment.CommentText = commenttext;
+
+                    c.Add(comment);
+
+                }
+
+                return c;
+            }
+        }
+
     }
 }
