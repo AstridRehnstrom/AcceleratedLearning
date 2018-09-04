@@ -28,6 +28,7 @@ namespace Bloggy
             Console.WriteLine("b) Uppdatera en bloggpost");
             Console.WriteLine("c) Lägg till en kommentar");
             Console.WriteLine("d) Visa kommentarer");
+            Console.WriteLine("e) Visa taggar");
 
             ConsoleKey command = Console.ReadKey().Key;
 
@@ -36,7 +37,9 @@ namespace Bloggy
                 case ConsoleKey.A: PageMainMenu(); break;
                 case ConsoleKey.B: PageUpdatePost(); break;
                 case ConsoleKey.C: PageCommentPost(); break;
-                case ConsoleKey.D: ShowAllComments(); break;
+                case ConsoleKey.D: ShowComment(); break;
+                case ConsoleKey.E: ShowATag(); break;
+
             }
         }
 
@@ -89,7 +92,6 @@ namespace Bloggy
 
         private void ShowAllBlogPosts()
         {
-
             List<BlogPost> allPosts = dataaccess.GetAllBlogPosts();
 
             foreach (BlogPost bp in allPosts)
@@ -98,16 +100,29 @@ namespace Bloggy
             }
         }
 
-        private void ShowAllComments()
+        private void ShowComment()
         {
             Console.WriteLine("Vilket inlägg vill du se kommentarer ifrån?");
             int inmatat = int.Parse(Console.ReadLine());
 
-            List<Comment> allComments = dataaccess.GetAllComments(inmatat);
+            List<Comment> allComments = dataaccess.GetACommentById(inmatat);
 
             foreach (var comment in allComments)
             {
                 Console.WriteLine(comment.CommentText);
+            }
+        }
+
+        private void ShowATag()
+        {
+            Console.WriteLine("Vilket inlägg vill du se taggar ifrån?");
+            int inmatat = int.Parse(Console.ReadLine());
+
+            List<Tag> allTags = dataaccess.GetATagById(inmatat);
+
+            foreach (var tag in allTags)
+            {
+                Console.WriteLine(tag.Name);
             }
         }
     }

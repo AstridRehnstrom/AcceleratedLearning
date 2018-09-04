@@ -104,7 +104,7 @@ namespace Bloggy
             }
         }
 
-        internal List<Comment> GetAllComments(int blogPostId)
+        internal List<Comment> GetACommentById(int blogPostId)
         {
             string sql = @"select Blogpost.ID, Name, CommentText 
             From Comments 
@@ -133,12 +133,51 @@ namespace Bloggy
                     comment.CommentText = commenttext;
 
                     c.Add(comment);
-
                 }
-
                 return c;
             }
         }
 
+        internal List<Tag> GetATagById(int blogPostId)
+        {
+            string sql = @"select Blogpost.ID, Blogpost.Title, Tag.Name
+            From Tag
+			join BlogPostTags on BlogPostTags.TagId=Tag.Id
+            join BlogPost on BlogPost.Id= BlogPostTags.BlogpostId
+			where BlogPost.Id=@ID  
+            order by BlogPost.Title";
+
+            using (SqlConnection connection = new SqlConnection(conString))
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                connection.Open();
+                command.Parameters.Add(new SqlParameter("Id", blogPostId));
+
+                SqlDataReader reader = command.ExecuteReader();
+                var t = new List<Tag>();
+
+                while (reader.Read())
+                {
+                    var tag = new Tag();
+                    tag.Blogpost = new BlogPost();
+
+                    int id = reader.GetSqlInt32(0).Value;
+                    string title = reader.GetSqlString(1).Value;
+                    string tagname = reader.GetSqlString(2).Value;
+
+                    tag.Blogpost.Id = id;
+                    tag.Blogpost.Title = title;
+                    tag.Name = tagname;
+
+                    t.Add(tag);
+
+                }
+
+                return t;
+            }
+
+
+
+        }
     }
 }

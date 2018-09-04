@@ -13,5 +13,6 @@ namespace Bloggy.Domain
         public string Author { get; set; }
         public string Text { get; set; }
         public List<Comment> Comments { get; set; }
+        public int TagId { get; set; }
     }
 }

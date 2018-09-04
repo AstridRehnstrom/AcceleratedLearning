@@ -8,7 +8,9 @@ namespace Bloggy.Domain
 {
     public class Tag
     {
-        public int iD{ get; set; }
+        public int Id{ get; set; }
         public string Name { get; set; }
+        public int BlogPostId { get; set; }
+        public BlogPost Blogpost { get; set; }
     }
 }
