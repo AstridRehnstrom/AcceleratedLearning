@@ -74,6 +74,20 @@ namespace Bloggy
             }
         }
 
+        internal void AddPostToBlog(string title, string author, string text)
+        {
+            string sql = @"insert into BlogPost (Title, Author,Text) values (@Title,@Author, @Text)";
+            using (SqlConnection connection = new SqlConnection(conString))
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                connection.Open();
+                command.Parameters.Add(new SqlParameter("Title", title));
+                command.Parameters.Add(new SqlParameter("Author", author));
+                command.Parameters.Add(new SqlParameter("Text", text));
+                command.ExecuteNonQuery();
+            }
+        }
+
         internal void UpdateBlogPost(BlogPost post)
         {
             string sql = @"update BlogPost set Title=@Title where ID=@ID";
@@ -100,7 +114,6 @@ namespace Bloggy
                 command.Parameters.Add(new SqlParameter("CommentText", comment.CommentText));
                 command.Parameters.Add(new SqlParameter("Name", comment.Name));
                 command.ExecuteNonQuery();
-
             }
         }
 
@@ -120,7 +133,7 @@ namespace Bloggy
 
                 SqlDataReader reader = command.ExecuteReader();
                 var c = new List<Comment>();
-                
+
                 while (reader.Read())
                 {
                     var comment = new Comment();
@@ -170,9 +183,7 @@ namespace Bloggy
                     tag.Name = tagname;
 
                     t.Add(tag);
-
                 }
-
                 return t;
             }
 

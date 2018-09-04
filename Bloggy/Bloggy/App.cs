@@ -29,6 +29,7 @@ namespace Bloggy
             Console.WriteLine("c) Lägg till en kommentar");
             Console.WriteLine("d) Visa kommentarer");
             Console.WriteLine("e) Visa taggar");
+            Console.WriteLine("f) Skapa ett nytt inlägg");
 
             ConsoleKey command = Console.ReadKey().Key;
 
@@ -39,8 +40,24 @@ namespace Bloggy
                 case ConsoleKey.C: PageCommentPost(); break;
                 case ConsoleKey.D: ShowComment(); break;
                 case ConsoleKey.E: ShowATag(); break;
-
+                case ConsoleKey.F: AddABlogPost(); break;
             }
+        }
+
+        private void AddABlogPost()
+        {          
+            Console.WriteLine("Skriv en rubrik: ");
+            string title = Console.ReadLine();
+            Console.WriteLine("Skriv ditt namn: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Skriv ditt inlägg:  ");
+            string text= Console.ReadLine();
+
+            dataaccess.AddPostToBlog(title,name,text);
+
+            Console.WriteLine("Blogginlägget är nu tillagt!");
+            Console.ReadKey();
+            PageMainMenu();
         }
 
         private void PageCommentPost()
