@@ -100,29 +100,65 @@ namespace Valutaappen_2._0
 
                     //dataaccess.InsertIntoSQL(api);
 
-                    Console.ForegroundColor = ConsoleColor.Magenta;
+
+
+
+
+                    //Console.CursorVisible = false;
+                    //string[] str = new string[] {"'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''",
+                    //                             "''''''''''''''''' V Ä L K O M M E N T I L L V A L U T A - A P P E N '''''''''''''''''''''''''''''",
+                    //                             "'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''"};
+
+                    //Console.ForegroundColor = ConsoleColor.Magenta;
+                    //Console.WriteLine("xxxxxxxxxx");
+                    //Console.WriteLine("xxxxxxxxxx");
+                    //Console.WriteLine("xxxxxxxxxx");
+                    //Console.WriteLine("xxxxxxxxxx");
+                    //Console.WriteLine("xxxxxxxxxx");
+                    //Console.WriteLine("xxxxxxxxxx");
+                    //Console.WriteLine("xxxxxxxxxx");
+                    //Console.WriteLine("xxxxxxxxxx");
+                    //Console.WriteLine("xxxxxxxxxx");
+                    //Console.WriteLine("xxxxxxxxxx");
+                    //Console.WriteLine("xxxxxxxxxx");
+
+                    //int n = str.Length;
+                    //EText[] ET = new EText[n];
+                    //int x, y;
+                    //x = 0;
+                    //y = 0;
+                    ////{
+                    
+
+                    //for (int i = 0; i < n; i++)
+                    //{
+                    //    ET[i] = new EText(str[i], x, y + i);
+
+                    //}
+                    //int counter = 0;
+                    //if (counter < 2)
+                    //{
+                    //    while (true)
+                    //    {
+
+                    //        foreach (EText et in ET)
+                    //        {
+                    //            et.ve();
+                    //            counter++;
+                    //        }
+                            
+                    //        if (counter == 2) break;
+                    //    }
+
+
+                    //}
+
+
                     Console.WriteLine("a) Se alla valutor i världen och deras kurs jämfört med Euro");
                     Console.WriteLine("b) Konvertera valuta");
                     Console.WriteLine("c) Avsluta");
                     Console.ResetColor();
                     Console.WriteLine();
-
-
-
-                    Console.CursorVisible = false;
-                    string[] str = new string[] {"'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''",
-                                                 "''''''''''''''''' V Ä L K O M M E N T I L L V A L U T A - A P P E N '''''''''''''''''''''''''''''",
-                                                 "'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''"};
-
-                    int n = str.Length;
-                    EText[] ET = new EText[n];
-                    int x, y;
-                    x = 0;
-                    y = 0;
-                    for (int i = 0; i < n; i++)
-                    {
-                        ET[i] = new EText(str[i], x, y + i);
-                    }
 
                     var command = Console.ReadKey().Key;
 
@@ -138,18 +174,6 @@ namespace Valutaappen_2._0
 
                     }
 
-                    while (true)
-                    {
-                        while (true)
-                        {
-                            foreach (EText et in ET)
-                            {
-                                et.ve();
-
-
-                            }
-                        }
-                    }
                 }
             }
         }
@@ -239,16 +263,7 @@ namespace Valutaappen_2._0
                 api.Currencies = currencies;
 
                 return api;
-
-
-
-
             }
-
-
-
-
-
         }
     }
 }
