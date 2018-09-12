@@ -16,6 +16,8 @@ namespace Samurai1
         public DbSet<SamuraiBattle> SamuraiBattles { get; set; }
         public DbSet<BattleLog> BattleLogs { get; set; }
         public DbSet<BattleEvent> BattleEvents { get; set; }
+        public DbSet<SamuraiInfo> SamuraiInfos { get; set; }
+        
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

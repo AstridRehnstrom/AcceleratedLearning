@@ -17,6 +17,8 @@ namespace Samurai1
         public string Name { get; set; }
         public SecretIdentity SecretIdentityId { get; set; }
         public HairStyleType HairStyle { get; set; }
+        public List<Quote> Quote { get; set; }
+        public List<SamuraiBattle> SamuraiBattle { get; set; }
 
     }
 }

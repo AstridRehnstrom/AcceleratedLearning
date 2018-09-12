@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Samurai1;
 
 namespace Samurai1.Migrations
 {
     [DbContext(typeof(SamuraiContext))]
-    partial class SamuraiContextModelSnapshot : ModelSnapshot
+    [Migration("20180911120606_yyyyyyy")]
+    partial class yyyyyyy
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -89,8 +91,6 @@ namespace Samurai1.Migrations
 
                     b.Property<int?>("SamuraiId");
 
-                    b.Property<string>("Text");
-
                     b.HasKey("Id");
 
                     b.HasIndex("SamuraiId");
@@ -132,9 +132,9 @@ namespace Samurai1.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("RealName");
-
                     b.Property<int>("SamuraiId");
+
+                    b.Property<string>("SecretName");
 
                     b.HasKey("Id");
 
@@ -154,7 +154,7 @@ namespace Samurai1.Migrations
             modelBuilder.Entity("Samurai1.BattleLog", b =>
                 {
                     b.HasOne("Samurai1.Battle", "Battle")
-                        .WithOne("BattleLog")
+                        .WithOne("BattleLogId")
                         .HasForeignKey("Samurai1.BattleLog", "BattleId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
@@ -162,7 +162,7 @@ namespace Samurai1.Migrations
             modelBuilder.Entity("Samurai1.Quote", b =>
                 {
                     b.HasOne("Samurai1.Samurai", "Samurai")
-                        .WithMany("Quote")
+                        .WithMany()
                         .HasForeignKey("SamuraiId");
                 });
 
@@ -174,7 +174,7 @@ namespace Samurai1.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("Samurai1.Samurai", "Samurai")
-                        .WithMany("SamuraiBattle")
+                        .WithMany()
                         .HasForeignKey("SamuraiId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });

@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Samurai1
 {
-    public class SecretIdentity
+    public class SamuraiInfo
     {
-        public int Id { get; set; }
+        
+        public string Name { get; set; }
         public string RealName { get; set; }
-        public Samurai Samurai { get; set; }
-
-        public int SamuraiId { get; set; }
+        public string BattleNames { get; set; }
     }
 }

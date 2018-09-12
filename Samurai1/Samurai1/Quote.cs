@@ -14,6 +14,7 @@ namespace Samurai1
     public class Quote
     {
         public int Id { get; set; }
+        public string Text { get; set; }
         public QuoteType QuoteType { get; set; }
         public Samurai Samurai { get; set; }
     }
