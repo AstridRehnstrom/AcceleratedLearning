@@ -1,0 +1,22 @@
+
+h1{
+	font: arial;
+	font-size: 150px;
+	color: blue;
+	text-align: center;    
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 10px;
+    size: 20px;
+    color: purple;  
+}
+
+th{
+	color: black;
+}
+#lista{
+	color: red;
+  }

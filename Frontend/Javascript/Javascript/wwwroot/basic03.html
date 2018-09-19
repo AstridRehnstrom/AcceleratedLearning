@@ -1,0 +1,65 @@
+﻿<link rel="stylesheet" href="plain.css">
+<meta charset="utf-8" />
+
+<button id="knapp8">Visa katt</button>
+<div id="goodPlaceForCat"></div>
+<button id="knapp9">Skriv text</button>
+<input id="textruta" />
+<button id="knapp10">Skriv text utifrån textrutan</button>
+<div id="sometext">
+</div>
+
+
+<script>
+    /*
+    Om användaren trycker på knapp8 => visa en katt
+
+    Tips: xxxx.innerHTML = "här kan du skriva vilken htmlkod som helst"
+    */
+    let knapp8 = document.getElementById("knapp8");
+    knapp8.addEventListener("click", () => {
+
+        knapp8.innerHTML = '<img src="https://www.readersdigest.ca/wp-content/uploads/sites/14/2011/01/4-ways-cheer-up-depressed-cat.jpg" />'
+
+    });
+
+
+    /*
+    Om användaren trycker på knapp9 => skriv en till rad "I believe you have my stapler."  till div'en "sometext"
+
+    Tips, för att utöka htmlkoden i ett element:
+
+        xxx.innerHTML = xxx.innerHTML + "nån mer htmlkod"
+    */
+    let knapp9 = document.getElementById("knapp9");
+   let text=""
+    knapp9.addEventListener("click", () => {
+
+        text= text+ "I believe you have my stapler.<br>"
+        sometext.innerHTML = text
+
+    });
+
+
+
+    /* Om användaren trycker på knapp10 => skriv det som står i "textruta" i div'en "sometext"
+
+    Tips: för att plocka ut det användaren matat in i en textruta:
+        minTextruta.value
+
+    */
+
+    let knapp10 = document.getElementById("knapp10");
+    let minTextruta = document.getElementById("textruta");
+    let text2 = ""
+    knapp10.addEventListener("click", () => {
+
+        text2 = text2 + minTextruta.value
+        sometext.innerHTML = text2
+       
+    });
+
+
+
+
+</script>

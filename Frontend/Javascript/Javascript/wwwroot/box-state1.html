@@ -1,0 +1,46 @@
+﻿<meta charset="utf-8" />
+
+<html>
+
+<body>
+    <style>
+        #box {
+            border: solid 3px;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+    <button id="knappA">Click me!</button>
+    <button id="knappB">Click me!</button>
+    <button id="knappC">Click me!</button>
+
+
+    <div id="box">
+
+        </div>
+
+</body>
+</html>
+
+<script>
+
+    let knappA = document.getElementById("knappA");
+    let box = document.getElementById("box");
+    knappA.addEventListener("click", () => {
+
+        box.style.backgroundColor = "red";
+    });
+
+    let knappB = document.getElementById("knappB");
+    knappB.addEventListener("click", () => {
+
+        box.style.backgroundColor = "green";
+    });
+
+    let knappC = document.getElementById("knappC");
+    knappC.addEventListener("click", () => {
+
+        box.style.backgroundColor = "blue";
+    });
+
+</script>

@@ -1,0 +1,53 @@
+﻿
+<link rel="stylesheet" href="plain.css">
+<meta charset="utf-8" />
+<h1 id="rubbe">Rubrik</h1>
+
+<p id="ingress"></p>
+
+<button id="knapp0" onclick="showAlertBox()">Alertruta med onclick</button>
+<button id="knapp1">Alertruta</button>
+<button id="knapp2">Skriv i consolen</button>
+<button id="knapp3">Ändra rubrikens text</button>
+<button id="knapp4">Sätt rubriken till röd</button>
+
+<script>
+
+    // Skapa en variabel som hänvisar till rubriken "ingress" mha "getElementById"
+    // Använd "innerText" för att skriva "Hello World!" i ingressen
+    let ingress = document.getElementById("ingress");
+    ingress.innerText = "Hello World!";
+    // Använd "innerText" för att skriva ut "Halló <b>heimur</b>! i "ingress"
+    // Testa "innerHTML" istället för innerText och se skillnaden
+    ingress.innerHTML = "Halló <b>heimur</b>!";
+    // Funktion som körs när användaren trycker på en knapp
+    function showAlertBox() {
+        alert("KLICK!");
+    }
+    // Om användaren trycker på knapp1 => skriv alertruta
+    let knapp1 = document.getElementById("knapp1");
+    knapp1.addEventListener("click", () => {
+        alert("klick!");
+    });
+    /*
+      Om användaren trycker på knapp2 => skriv (med två console.log):
+          "Hello Peter what's happening."
+          "I'm gonna need you to go ahead and come in tomorrow"
+    */
+    let knapp2 = document.getElementById("knapp2");
+    knapp2.addEventListener("click", () => {
+        console.log(`Hello Peter what's happening.`);
+        console.log(`I'm gonna need you to go ahead and come in tomorrow`);
+    });
+    // Om användaren trycker på knapp3 => ändra rubriken till "Ny rubrik"
+    let knapp3 = document.getElementById("knapp3");
+    let rubbe = document.getElementById("rubbe");
+    knapp3.addEventListener("click", () => {
+        rubbe.innerHTML = "Ny rubrik";
+    });
+    // Om användaren trycker på knapp4 => byt färg på rubriken till röd
+    let knapp4 = document.getElementById("knapp4");
+    knapp4.addEventListener("click", () => {
+        rubbe.style.color = "red";
+    });
+</script>

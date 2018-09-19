@@ -1,0 +1,44 @@
+﻿<meta charset="utf-8" />
+<html>
+<head>
+    <title>box-state3</title>
+</head>
+<body>
+    <style>
+        #box {
+            border: solid 3px;
+            width: 300px;
+            height: 300px;
+            background-color: rgb(255, 0, 0);
+        }
+    </style>
+    <button id="knappA">Previous</button>
+    <button id="knappB">Next</button>
+
+    <div id="box">
+    </div>
+
+    <script>
+        //rgb(255,0,0)-röd
+        //rgb(0,0,0)-svart
+          
+        let knappA = document.getElementById("knappA");
+        let box = document.getElementById("box");
+        let färg = 127
+        knappA.addEventListener("click", () => {        
+            färg = färg + 10
+           box.style.backgroundColor = "rgb(" + färg + ", 0,0)"
+           
+        });
+
+        let knappB = document.getElementById("knappB");
+        knappB.addEventListener("click", () => {
+            färg = färg - 10
+            box.style.backgroundColor = "rgb(" + färg + ", 0,0)"
+
+        });
+
+    </script>
+
+</body>
+</html>
