@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="playground">
+
+        <div>
+            Enter your name:
+        </div>
+
+        <input type="text" id="yourName" />
+
+        <div>
+            Enter your age:
+        </div>
+
+        <input type="text" id="yourAge" />
+
+        <button id="okButton">Ok</button>
+
+        <div id="response" class="response">
+        </div>
+
+    </div>
+
+    <script>
+        /*
+            Om användaren t.ex matar in Lisa och 25 så meddela:
+                You are 25 years old and your name is Lisa
+            Om användaren matar in Oscar och 43 så svara:
+                I like you!
+
+        */
+        function respondToUser() {
+            let yourAge = document.getElementById("yourAge").value;
+            let yourName = document.getElementById("yourName").value;
+            let response = "";
+            if (yourAge == 43 && yourName == "Oscar") {
+                response = "I like you!"
+            } else {
+                response = `You are ${yourAge} years old and your name is ${yourName}`
+            }
+            document.getElementById("response").innerHTML = response;
+        }
+        document.getElementById("okButton").addEventListener("click", respondToUser)
+    </script>
+
+</body>
+</html>

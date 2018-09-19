@@ -1,0 +1,108 @@
+﻿!DOCTYPE html>
+<html>
+<head>
+    <title>bulb5</title>
+</head>
+<style>
+    button, img {
+        display: block;
+        float: left;
+    }
+
+    button {
+        padding: 20px;
+        margin: 90px;
+    }
+
+    img {
+        width: 15%;
+        height: 35%;
+    }
+</style>
+
+<body style="background-color:black">
+
+
+    <div style="overflow:auto">
+        <button id="knappA">Press me!</button>
+        <button id="knappB">Press me!</button>
+        <button id="knappC">Press me!</button>
+
+    </div>
+
+    <div style="overflow:hidden">
+        <div id="lightOff">
+            <img src=lightOff.jpg />
+        </div>
+
+        <div id="lightOff2">
+            <img src=lightOff.jpg />
+        </div>
+
+        <div id="lightOff3">
+            <img src=lightOff.jpg />
+        </div>
+       
+    </div>
+
+
+    <script>
+        let knappA = document.getElementById("knappA");
+        let knappB = document.getElementById("knappB");
+        let knappC = document.getElementById("knappC");
+
+        let lightOff = document.getElementById("lightOff");
+        let lightOff2 = document.getElementById("lightOff2");
+        let lightOff3 = document.getElementById("lightOff3");
+
+        let a = 1;
+        let b = 1;
+        let c = 1;
+
+
+        knappA.addEventListener("click", () => {
+            if (a === 1) {
+
+                lightOff.innerHTML = '<img src="lightOn.jpg" />'
+                
+                a = 2
+            }
+            else {
+                lightOff.innerHTML = '<img src="lightOff.jpg" />'
+
+                a=1
+            }
+        });
+
+        knappB.addEventListener("click", () => {
+            if (b === 1) {
+
+                lightOff2.innerHTML = '<img src="lightOn.jpg" />'
+
+                b = 2
+            }
+            else {
+                lightOff2.innerHTML = '<img src="lightOff.jpg" />'
+
+                b = 1
+            }
+        });
+
+        knappC.addEventListener("click", () => {
+            if (c === 1) {
+
+                lightOff3.innerHTML = '<img src="lightOn.jpg" />'
+
+                c = 2
+            }
+            else {
+                lightOff3.innerHTML = '<img src="lightOff.jpg" />'
+
+                c = 1
+            }
+        });
+
+    </script>
+
+</body>
+</html>

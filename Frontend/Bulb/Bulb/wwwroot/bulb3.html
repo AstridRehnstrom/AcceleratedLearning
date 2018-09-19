@@ -1,0 +1,64 @@
+﻿!DOCTYPE html>
+<html>
+<head>
+    <title>bulb3</title>
+</head>
+<style>
+    button, img {
+        display: block;
+        float: left;
+    }
+
+    button {
+        padding: 20px;
+        margin: 90px;
+    }
+
+    img {
+        width: 15%;
+        height: 35%;
+    }
+</style>
+
+<body style="background-color:black">
+
+
+    <div style="overflow:auto">
+        <button id="knappA">Light all bulbs!</button>
+
+    </div>
+
+    <div id="lightOff">
+        <img src=lightOff.jpg />
+    </div>
+
+    <div id="lightOff2">
+        <img src=lightOff.jpg />
+    </div>
+
+    <div id="lightOff3">
+        <img src=lightOff.jpg />
+    </div>
+
+    <script>
+
+        let knappA = document.getElementById("knappA");
+        let lightOff = document.getElementById("lightOff");
+        let lightOff2 = document.getElementById("lightOff2");
+        let lightOff3 = document.getElementById("lightOff3");
+
+        knappA.addEventListener("click", () => {
+
+            lightOff.innerHTML = '<img src="lightOn.jpg" />'
+            lightOff2.innerHTML = '<img src="lightOn.jpg" />'
+            lightOff3.innerHTML = '<img src="lightOn.jpg" />'
+
+        });
+
+       
+
+
+    </script>
+
+</body>
+</html>

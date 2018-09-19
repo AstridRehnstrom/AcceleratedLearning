@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>bulb1</title>
+</head>
+<style>
+    button,img{display:block;float:left}
+    img{
+        width: 15%;
+        height: 15%;      
+    }
+</style>
+
+<body style="background-color:black">
+   
+
+    <div style="overflow:auto">
+        <button id="knappA">Light bulb!</button>
+      
+    </div>
+
+    <div id="lightOff">
+        <img src=lightOff.jpg />
+    </div>
+   
+    <script>
+
+        let knappA = document.getElementById("knappA");
+        let lightOff = document.getElementById("lightOff");
+       
+        knappA.addEventListener("click", () => {
+
+            lightOff.innerHTML = '<img src="lightOn.jpg" />'
+
+
+        });
+
+
+
+
+
+    </script>
+
+</body>
+</html>

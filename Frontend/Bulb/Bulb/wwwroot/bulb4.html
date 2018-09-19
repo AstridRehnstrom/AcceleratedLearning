@@ -1,0 +1,127 @@
+﻿!DOCTYPE html>
+<html>
+<head>
+    <title>bulb4</title>
+</head>
+<style>
+    button, img {
+        display: block;
+        float: left;
+    }
+
+    button {
+        padding: 20px;
+        margin: 90px;
+    }
+
+    img {
+        width: 15%;
+        height: 35%;
+    }
+</style>
+
+<body style="background-color:black">
+
+
+    <div style="overflow:auto">
+        <button id="knappA">Press me!</button>
+
+    </div>
+
+    <div style="overflow:hidden">
+        <div id="lightOff">
+            <img src=lightOff.jpg />
+        </div>
+
+        <div id="lightOff2">
+            <img src=lightOff.jpg />
+        </div>
+
+        <div id="lightOff3">
+            <img src=lightOff.jpg />
+        </div>
+
+        <div id="lightOff4">
+            <img src=lightOff.jpg />
+        </div>
+
+        <div id="lightOff5">
+            <img src=lightOff.jpg />
+        </div>
+    </div>
+
+   
+      <h1 id="Current" style="color:white">Current bulb: </h1>
+   
+
+
+    <script>
+
+        let knappA = document.getElementById("knappA");
+        let lightOff = document.getElementById("lightOff");
+        let lightOff2 = document.getElementById("lightOff2");
+        let lightOff3 = document.getElementById("lightOff3");
+        let lightOff4 = document.getElementById("lightOff4");
+        let lightOff5 = document.getElementById("lightOff5");
+        
+
+        let i = 1;
+
+            knappA.addEventListener("click", () => {
+               
+                if (i === 1) {
+
+                    lightOff5.innerHTML = '<img src="lightOff.jpg" />'
+                    lightOff.innerHTML = '<img src="lightOn.jpg" />'
+                    document.getElementById("Current").innerHTML = "Current bulb: "+i;
+                    i=2
+
+                }
+
+                else if (i === 2) {
+
+                    lightOff.innerHTML = '<img src="lightOff.jpg" />'
+                    lightOff2.innerHTML = '<img src="lightOn.jpg" />'
+                    document.getElementById("Current").innerHTML = "Current bulb: " + i;
+
+                    i = 3
+
+                }
+                else if (i === 3) {
+
+                    lightOff2.innerHTML = '<img src="lightOff.jpg" />'
+                    lightOff3.innerHTML = '<img src="lightOn.jpg" />'
+                    document.getElementById("Current").innerHTML = "Current bulb: " + i;
+                   
+                    i = 4
+
+                }
+                else if (i === 4) {
+
+                    lightOff3.innerHTML = '<img src="lightOff.jpg" />'
+                    lightOff4.innerHTML = '<img src="lightOn.jpg" />'
+                    document.getElementById("Current").innerHTML = "Current bulb: " + i;
+                   
+                    i = 5
+
+                }
+               else if (i === 5) {
+
+
+                    lightOff4.innerHTML = '<img src="lightOff.jpg" />'
+                    lightOff5.innerHTML = '<img src="lightOn.jpg" />'
+                    document.getElementById("Current").innerHTML = "Current bulb: " + i;
+
+                    i = 1
+
+                }
+
+            });
+
+
+
+
+    </script>
+
+</body>
+</html>
